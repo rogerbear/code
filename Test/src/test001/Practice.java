@@ -13,5 +13,6 @@ public class Practice {
 		String second = scanner.next();
 		scanner.close();
 		System.out.println(first + " and " +second);
+		
 	}
 }
