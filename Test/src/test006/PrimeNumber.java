@@ -11,16 +11,16 @@ public class PrimeNumber {
 					flag = false;
 					break;
 				}
-			
 			}
 			if (flag) {
-				System.out.print(num + "\t");
 				count++;
+				System.out.print(num + "\t");
 				if (count % 10 == 0) {
 					System.out.println();
 				}
 			}
 		}
+
 	}
 
 }
