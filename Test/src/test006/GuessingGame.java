@@ -48,8 +48,8 @@ public class GuessingGame {
 		}
 		return chs;
 	}
-  //比较
-  public static int[] check(char[] chs,char[] input){
+	//比较
+	public static int[] check(char[] chs,char[] input){
   	int[] result = new int[2];
   	for(int i=0;i<chs.length;i++){
   		for(int j=0;j<input.length;j++){
