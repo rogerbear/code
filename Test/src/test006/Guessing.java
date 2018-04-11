@@ -39,7 +39,6 @@ public class Guessing {
 				System.out.println("字母对" + result[0] + "个" + "位置对" + result[1] + "个!");
 			}
 		}
-
 	}
 
 	// 随机生成5个字符数组
