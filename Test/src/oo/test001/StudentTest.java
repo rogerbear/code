@@ -8,7 +8,7 @@ public class StudentTest {
 		zl.name = "утаЫ";
 		zl.sex = "дп";
 		zl.study();
-		zl.info();
+		zl.info(); 
 	}
 
 }
