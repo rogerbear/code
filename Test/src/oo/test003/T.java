@@ -12,7 +12,4 @@ public class T extends Tetromino{
 	T() {
 		this(0, 0);
 	}
-
-	
-
 }
