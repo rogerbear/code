@@ -1,4 +1,4 @@
-package oo.test002;
+package oo.test003;
 
 public class Cell {
 	int row;
@@ -15,22 +15,6 @@ public class Cell {
 	Cell(int row, int col) {
 		this.row = row;
 		this.col = col;
-	}
-
-	void drop() {
-		row++;
-	}
-
-	void moveLeft(int n) {
-		col -= n;
-	}
-
-	void drop(int n) {
-		row += n;
-	}
-
-	void moveleft() {
-		col--;
 	}
 
 	String getCellInfo() {
