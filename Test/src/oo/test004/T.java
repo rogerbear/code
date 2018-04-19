@@ -1,4 +1,4 @@
-package oo.test003;
+package oo.test004;
 
 public class T extends Tetromino {
 
@@ -11,5 +11,14 @@ public class T extends Tetromino {
 
 	T() {
 		this(0, 0);
+	}
+	
+	void print() {
+		System.out.println("i am a T:");
+//		for (int i = 0; i < cells.length; i++) {
+//			String str = cells[i].getCellInfo();
+//			System.out.println(str);
+//		}
+		super.print();
 	}
 }
