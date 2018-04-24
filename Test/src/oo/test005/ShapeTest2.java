@@ -8,8 +8,8 @@ public class ShapeTest2 {
 		shape[1] = new Squre2(2);
 		shape[2] = new Circle2(1);
 		shape[3] = new Circle2(2);
-		shape[4] = new Triangle(3);
-		shape[5] = new Triangle(5);
+		shape[4] = new Six(3);
+		shape[5] = new Six(5);
 		maxArea2(shape);
 	}
 
@@ -25,6 +25,16 @@ public class ShapeTest2 {
 		System.out.println("最大值是：" + max + "，位置是：" + index);
 	}
 
+}
+
+class Goo{
+	void study() {
+		
+	}
+}
+
+abstract class Hoo extends Goo {
+	
 }
 
 abstract class Shape2 {
@@ -53,8 +63,8 @@ class Circle2 extends Shape2 {
 	}
 }
 
-class Triangle extends Shape2 {
-	Triangle(double c) {
+class Six extends Shape2 {
+	Six(double c) {
 		this.c = c;
 	}
 
