@@ -8,6 +8,10 @@ public class IntegerDemo1 {
 		dosome(new Point(1, 2));
 		int i = 2;
 		dosome(i);
+
+		Integer ii = new Integer(i);
+		int a = ii.intValue();
+		System.out.println(a);
 	}
 
 	public static void dosome(Object obj) {
@@ -15,3 +19,16 @@ public class IntegerDemo1 {
 	}
 
 }
+
+//class Integer {
+//	private int i;
+//
+//	public Integer(int i) {
+//		this.i = i;
+//	}
+//
+//	public int intValue() {
+//		return i;
+//	}
+//
+//}
